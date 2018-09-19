@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		{60E2DDE4-F1CD-11D8-BF98-00D0591A7DED} = s 'NMEAInst'
+		'NMEAInst.EXE'
+		{
+			val AppID = s {60E2DDE4-F1CD-11D8-BF98-00D0591A7DED}
+		}
+	}
+}

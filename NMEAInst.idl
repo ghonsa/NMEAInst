@@ -1,0 +1,19 @@
+
+	// NMEAInst.idl : IDL source for NMEAInst.exe
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (NMEAInst.tlb) and marshalling code.
+import "oaidl.idl";
+import "ocidl.idl";
+[
+	uuid(60E2DDE3-F1CD-11D8-BF98-00D0591A7DED),
+	version(1.0),
+	helpstring("NMEAInst 1.0 Type Library")
+]
+library NMEAInstLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
+
+	
